@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="米白绿色设计语言：配色、排版与跨媒介设计的离线交互样张。">
+<title>米白绿色设计语言 · 交互样张</title>
+<link rel="stylesheet" href="editorial.css">
+<script src="starter.js" defer></script>
+</head>
+<body class="ig-page">
+<main class="ig" lang="zh-CN">
+<header>
+  <div class="topline"><span class="eyebrow">Ivory Green / Design Language</span><span class="small">A quiet visual system · 01</span></div>
+  <p class="eyebrow">米白 · 森林绿 · 编辑式排版</p>
+  <h1>给内容留白，<br>让重点自然浮现。</h1>
+  <p class="deck">从一张海报，到一组演示文稿，再到可操作的界面。用温润的底色、清晰的层级和有分寸的绿色，建立一致的阅读体验。</p>
+  <img class="hero" src="preview.svg" width="1600" height="900" alt="米白绿色设计语言封面：衬线标题、绿色几何构图和少量黄色标记。">
+</header>
+<section aria-labelledby="principles-title">
+  <p class="eyebrow">01 / Principles</p><h2 id="principles-title">先组织信息，再安排装饰。</h2>
+  <div class="two"><div><h3>排版负责节奏</h3><p>标题与正文有明显区别。把相关内容靠近，把章节之间的距离留足。无需给每一段文字添加卡片。</p></div><div><h3>颜色负责指引</h3><p>浅底适合连续阅读，深绿建立重点，黄色只作少量提醒。信息含义同时用文字和形状表达。</p></div></div>
+</section>
+<section aria-labelledby="palette-title">
+  <p class="eyebrow">02 / Palette</p><h2 id="palette-title">少量颜色，明确角色。</h2>
+  <div class="palette"><div class="swatch paper"><strong>米白 / Paper</strong><code>#F9F4EC</code></div><div class="swatch forest"><strong>森林绿 / Forest</strong><code>#134436</code></div><div class="swatch green"><strong>主绿 / Green</strong><code>#006442</code></div><div class="swatch accent"><strong>亮黄 / Accent</strong><code>#FFE552</code></div></div>
+  <p class="caption">底色、结构、动作与点缀各司其职。具体配比随内容调整。</p>
+</section>
+<section aria-labelledby="play-title">
+  <p class="eyebrow">03 / Try it</p><h2 id="play-title">亲手调整阅读感受。</h2>
+  <div class="playground">
+    <div class="controls">
+      <div class="control"><label for="surface">样张底色</label><select id="surface"><option value="paper">米白 · 连续阅读</option><option value="white">白色 · 清晰轻盈</option><option value="forest">森林绿 · 强调重点</option></select></div>
+      <div class="control"><label for="type-size">正文字号 <output id="size-value" for="type-size">17 px</output></label><input id="type-size" type="range" min="16" max="22" value="17" step="1"></div>
+      <button id="reset-style" type="button">恢复默认</button>
+    </div>
+    <article class="specimen" id="specimen" data-surface="paper" aria-label="排版效果样张">
+      <p class="sample-label">READING NOTES / 阅读札记</p><h3>把想法写清楚，<br>也是一种设计。</h3>
+      <p>一个标题，一段解释，一处恰当的留白。读者能看懂内容之间的关系，画面就已经有了秩序。</p>
+      <p>字体不必抢眼，但需要有清楚的层级。颜色不必很多，但每一种都应承担明确的角色。</p>
+    </article>
+    <p class="caption">调整仅作用于上方样张；没有网络请求，也不会保存你的选择。字号不影响内容事实。</p>
+  </div>
+</section>
+<section aria-labelledby="templates-title">
+  <p class="eyebrow">04 / Across formats</p><h2 id="templates-title">同一种语言，不同的画布。</h2>
+  <div class="gallery">
+    <figure><a href="templates/slide-16x9.svg"><img src="templates/slide-16x9.svg" width="1920" height="1080" alt="横向演示版式：大标题、留白与深绿结构区。" loading="lazy"></a><figcaption><a href="templates/slide-16x9.svg">16:9 演示版式 SVG</a></figcaption></figure>
+    <figure><a href="templates/poster-portrait.svg"><img src="templates/poster-portrait.svg" width="1080" height="1440" alt="竖版海报：米白画布上的标题与绿色几何构图。" loading="lazy"></a><figcaption><a href="templates/poster-portrait.svg">竖版海报 SVG</a></figcaption></figure>
+    <figure><a href="templates/diagram.svg"><img src="templates/diagram.svg" width="1440" height="960" alt="通用图解：有清楚编号、文字和连接关系的流程。" loading="lazy"></a><figcaption><a href="templates/diagram.svg">流程图解 SVG</a></figcaption></figure>
+  </div>
+  <p class="caption">这些是可编辑的矢量源文件。原生 PPTX 或 PSD 需使用相应软件重建文本、图形与图层。</p>
+</section>
+<section aria-labelledby="notes-title">
+  <p class="eyebrow">05 / Details</p><h2 id="notes-title">保持一致，也允许变化。</h2>
+  <details open><summary>中文和英文如何搭配？</summary><p>英文标题用衬线体，中文标题选宋体类，正文采用黑体类。中文保持自然字距，检查标点、数字和回退字体。</p></details>
+  <details><summary>什么时候使用卡片？</summary><p>卡片适合独立模块、交互区或并列选项。连续论述优先直接排版，用段落和章节间距组织内容。</p></details>
+  <details><summary>如何适应 PPT 和海报？</summary><p>保留色彩角色和阅读节奏，按观看距离重设字号与密度。演示页围绕一个核心观点，海报围绕一个主视觉焦点。</p></details>
+</section>
+<section class="check-section" aria-labelledby="check-title">
+  <p class="eyebrow">06 / Review</p><h2 id="check-title">在交付前，看一遍成品。</h2>
+  <fieldset class="checklist"><legend>以下勾选只记录当前页面的人工自检，不表示自动通过验收。</legend>
+    <label><input type="checkbox" name="review">主次清楚，标题和正文易于区分</label>
+    <label><input type="checkbox" name="review">文字没有裁切、重叠或字体缺失</label>
+    <label><input type="checkbox" name="review">图片与图解准确传达内容</label>
+    <label><input type="checkbox" name="review">已检查实际导出格式与目标尺寸</label>
+  </fieldset>
+  <div class="result"><span>自检记录 <output id="review-count" aria-live="polite">0 / 4</output></span><button type="button" id="reset-review">清空勾选</button></div>
+</section>
+<footer>米白绿色设计语言 · 通用设计样张<br>所有文字与图形均为设计演示。字体使用设备可用的回退字族。</footer>
+</main>
+</body>
+</html>

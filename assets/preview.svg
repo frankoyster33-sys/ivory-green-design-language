@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">米白绿色设计语言 — Ivory Green Design Language</title>
+  <desc id="desc">An editorial cover in ivory and forest green. Large serif Chinese lettering, a restrained geometric composition, and five labeled color swatches introduce the design language.</desc>
+  <defs>
+    <style>
+      .serif { font-family: Georgia, "Songti SC", "Noto Serif CJK SC", SimSun, serif; font-weight: 400; }
+      .sans { font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .ink { fill: #203D34; }
+      .muted { fill: #50665C; }
+      .eyebrow { font-size: 15px; font-weight: 700; letter-spacing: 2.5px; }
+    </style>
+  </defs>
+  <g id="background"><rect width="1600" height="900" fill="#F9F4EC"/></g>
+  <g id="masthead" class="sans">
+    <rect x="88" y="70" width="22" height="22" rx="3" fill="#006442"/>
+    <text x="130" y="88" class="eyebrow ink">IVORY GREEN / DESIGN LANGUAGE</text>
+    <text x="1512" y="88" text-anchor="end" font-size="16" class="muted">A VISUAL SYSTEM</text>
+    <path d="M88 124H1512" stroke="#D7DFD3"/>
+  </g>
+  <g id="headline">
+    <text x="85" y="293" class="serif" fill="#134436" font-size="104">米白绿色</text>
+    <text x="85" y="418" class="serif" fill="#134436" font-size="104">设计语言</text>
+    <text x="91" y="489" class="serif" fill="#006442" font-size="43">Quiet form. Clear ideas.</text>
+    <text x="92" y="563" class="sans muted" font-size="24">温润的底色，清晰的信息，恰到好处的留白。</text>
+    <text x="92" y="605" class="sans muted" font-size="22">Presentations · Posters · Interfaces · Illustrations</text>
+  </g>
+  <g id="geometric-study">
+    <rect x="1020" y="188" width="492" height="442" rx="4" fill="#134436"/>
+    <path d="M1060 226H1472M1060 580H1472M1060 226V580M1472 226V580" fill="none" stroke="#D7DFD3" stroke-opacity=".24"/>
+    <circle cx="1266" cy="402" r="141" fill="none" stroke="#F9F4EC" stroke-width="2"/>
+    <circle cx="1266" cy="402" r="94" fill="none" stroke="#F9F4EC" stroke-width="2"/>
+    <path d="M1266 260V544M1125 402H1407" stroke="#F9F4EC" stroke-opacity=".35"/>
+    <circle cx="1266" cy="308" r="20" fill="#FFE552"/>
+    <rect x="1176" y="463" width="230" height="126" rx="3" fill="#FFFFFF"/>
+    <text x="1198" y="515" class="serif" font-size="44" fill="#134436">Aa</text>
+    <path d="M1290 484V565" stroke="#D7DFD3"/>
+    <text x="1310" y="516" class="sans ink" font-size="21">明</text>
+    <text x="1199" y="561" class="sans muted" font-size="13" letter-spacing="1.4">TYPE &amp; SPACE</text>
+    <text x="1061" y="609" class="sans" fill="#F9F4EC" font-size="12" letter-spacing="2">STUDY / 01</text>
+  </g>
+  <g id="palette" class="sans">
+    <path d="M88 693H1512" stroke="#D7DFD3"/>
+    <text x="88" y="737" class="eyebrow muted">CORE PALETTE</text>
+    <rect x="88" y="765" width="260" height="42" rx="3" fill="#134436"/>
+    <rect x="379" y="765" width="260" height="42" rx="3" fill="#006442"/>
+    <rect x="670" y="765" width="260" height="42" rx="3" fill="#FFFFFF" stroke="#D7DFD3"/>
+    <rect x="961" y="765" width="260" height="42" rx="3" fill="#F9F4EC" stroke="#D7DFD3"/>
+    <rect x="1252" y="765" width="260" height="42" rx="3" fill="#FFE552"/>
+    <text x="88" y="837" font-size="16" class="ink">Forest / #134436</text>
+    <text x="379" y="837" font-size="16" class="ink">Green / #006442</text>
+    <text x="670" y="837" font-size="16" class="ink">White / #FFFFFF</text>
+    <text x="961" y="837" font-size="16" class="ink">Ivory / #F9F4EC</text>
+    <text x="1252" y="837" font-size="16" class="ink">Accent / #FFE552</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial presentation slide — a clear idea</title>
+  <desc id="desc">Editable 16:9 slide template. A large serif headline on the left is balanced by a forest green geometric study on the right. The bottom row holds three brief principles.</desc>
+  <defs><style>
+    .serif { font-family: Georgia, "Songti SC", "Noto Serif CJK SC", serif; font-weight: 400; }
+    .sans { font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .ink { fill: #203D34; } .muted { fill: #50665C; }
+  </style></defs>
+  <g id="background"><rect width="1920" height="1080" fill="#F9F4EC"/></g>
+  <g id="header" class="sans">
+    <text x="112" y="98" fill="#006442" font-size="20" font-weight="700" letter-spacing="3">01 / THE PRINCIPLE</text>
+    <path d="M112 135H1808" stroke="#D7DFD3"/>
+  </g>
+  <g id="editable-title">
+    <text x="107" y="321" class="serif" fill="#134436" font-size="116" letter-spacing="-4">A clear idea.</text>
+    <text x="107" y="447" class="serif" fill="#134436" font-size="116" letter-spacing="-4">Room to breathe.</text>
+    <text x="115" y="540" class="sans muted" font-size="34">Give each page one purpose.</text>
+    <text x="115" y="592" class="sans muted" font-size="34">Let type, space, and color carry it.</text>
+  </g>
+  <g id="editable-artwork">
+    <rect x="1252" y="215" width="556" height="480" rx="6" fill="#134436"/>
+    <circle cx="1530" cy="455" r="167" fill="none" stroke="#F9F4EC" stroke-width="2.5"/>
+    <circle cx="1530" cy="455" r="110" fill="none" stroke="#F9F4EC" stroke-width="2.5"/>
+    <path d="M1530 260V650M1335 455H1725" stroke="#F9F4EC" stroke-opacity=".3"/>
+    <circle cx="1530" cy="345" r="25" fill="#FFE552"/>
+    <text x="1290" y="654" class="sans" fill="#F9F4EC" font-size="16" letter-spacing="2.5">SPACE / BALANCE / FOCUS</text>
+  </g>
+  <g id="editable-principles">
+    <path d="M112 785H1808" stroke="#D7DFD3"/>
+    <text x="112" y="849" class="serif" fill="#006442" font-size="38">01</text>
+    <text x="195" y="848" class="sans ink" font-size="29" font-weight="700">Clear hierarchy</text>
+    <text x="195" y="894" class="sans muted" font-size="25">The main point comes first.</text>
+    <text x="696" y="849" class="serif" fill="#006442" font-size="38">02</text>
+    <text x="779" y="848" class="sans ink" font-size="29" font-weight="700">Purposeful space</text>
+    <text x="779" y="894" class="sans muted" font-size="25">Leave room between ideas.</text>
+    <text x="1280" y="849" class="serif" fill="#006442" font-size="38">03</text>
+    <text x="1363" y="848" class="sans ink" font-size="29" font-weight="700">Restrained color</text>
+    <text x="1363" y="894" class="sans muted" font-size="25">Highlight what matters.</text>
+  </g>
+  <g id="footer" class="sans muted" font-size="18">
+    <text x="112" y="1001">IVORY GREEN</text>
+    <text x="1808" y="1001" text-anchor="end">01</text>
+  </g>
+</svg>

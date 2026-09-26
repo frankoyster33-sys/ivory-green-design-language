@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial portrait poster — make room for one idea</title>
+  <desc id="desc">Editable 3:4 digital poster with a quiet ivory ground, oversized serif headline, green concentric circles, and a short closing statement. This SVG is a digital canvas without print bleed.</desc>
+  <defs><style>
+    .serif { font-family: Georgia, "Songti SC", "Noto Serif CJK SC", serif; font-weight: 400; }
+    .sans { font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  </style></defs>
+  <g id="background"><rect width="1080" height="1440" fill="#F9F4EC"/></g>
+  <g id="header" class="sans">
+    <rect x="76" y="76" width="18" height="18" rx="2" fill="#006442"/>
+    <text x="115" y="92" fill="#006442" font-size="17" letter-spacing="2.2" font-weight="700">NOTES ON CLARITY</text>
+    <text x="1004" y="92" fill="#50665C" text-anchor="end" font-size="17">01</text>
+    <path d="M76 127H1004" stroke="#D7DFD3"/>
+  </g>
+  <g id="editable-headline" class="serif" fill="#134436" font-size="114" letter-spacing="-4">
+    <text x="70" y="279">Make room</text>
+    <text x="70" y="397">for one idea.</text>
+  </g>
+  <g id="editable-subtitle" class="sans" fill="#50665C" font-size="26">
+    <text x="78" y="466">Less visual noise.</text>
+    <text x="78" y="505">More space for meaning.</text>
+  </g>
+  <g id="editable-artwork">
+    <rect x="76" y="564" width="928" height="554" rx="4" fill="#134436"/>
+    <circle cx="540" cy="841" r="211" fill="none" stroke="#F9F4EC" stroke-width="2"/>
+    <circle cx="540" cy="841" r="148" fill="none" stroke="#F9F4EC" stroke-width="2"/>
+    <circle cx="540" cy="841" r="85" fill="none" stroke="#F9F4EC" stroke-width="2"/>
+    <path d="M540 610V1072M309 841H771" stroke="#F9F4EC" stroke-opacity=".25"/>
+    <circle cx="540" cy="693" r="22" fill="#FFE552"/>
+    <circle cx="540" cy="841" r="6" fill="#F9F4EC"/>
+    <text x="110" y="1080" class="sans" fill="#F9F4EC" font-size="15" letter-spacing="2.5">A STUDY IN FOCUS</text>
+  </g>
+  <g id="editable-footer">
+    <text x="76" y="1209" class="serif" fill="#006442" font-size="39">Quiet form. Clear ideas.</text>
+    <text x="78" y="1263" class="sans" fill="#50665C" font-size="24">Type establishes the rhythm.</text>
+    <text x="78" y="1300" class="sans" fill="#50665C" font-size="24">Space lets the message settle.</text>
+    <path d="M76 1344H1004" stroke="#D7DFD3"/>
+    <text x="76" y="1384" class="sans" fill="#50665C" font-size="16" letter-spacing="1.8">IVORY GREEN</text>
+    <text x="1004" y="1384" class="sans" fill="#50665C" text-anchor="end" font-size="16">FORM / SPACE / MEANING</text>
+  </g>
+</svg>

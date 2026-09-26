@@ -1,0 +1,4 @@
+interface:
+  display_name: "米白绿色设计语言"
+  short_description: "以米白、森林绿和衬线排版，统一演示文稿、海报、界面与插图的视觉语言"
+  default_prompt: "使用 $ivory-green-design-language，为这份内容设计清晰、克制且有编辑感的视觉作品。"
